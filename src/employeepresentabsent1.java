@@ -4,7 +4,7 @@ public class employeepresentabsent1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
    
-		int isPresent =(int) (Math.random()*100)%3;
+		int isPresent =(int) (Math.random()*10)%3;
 		System.out.println(isPresent);
 		if(isPresent==0) {
 			System.out.println("employee is absent");
